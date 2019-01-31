@@ -15,8 +15,8 @@ npm install resolve-ipfs
 * parser
 
 ```js
-const resolve = require('resolve-ipfs');
-const path = 'http://raw.githubusercontent.com/OpenZeppelin/openzeppelin-solidity/master/contracts/math/SafeMath.sol';
+const path = 'ipfs://QmTeW79w7QQ6Npa3b1d5tANreCDxF2iDaAPsDvW6KtLmfB/styles/jquery/jquery.min.js';
+    let content = await resolve.parser(path);
 let content = await resolve.parser(path);
 ```
 
