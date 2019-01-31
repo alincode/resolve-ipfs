@@ -13,6 +13,10 @@
     "release": "npm version minor && npm publish",
     "patch": "npm version patch && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alincode/resolve-ipfs.git"
+  },
   "keywords": [
     "IPFS"
   ],
